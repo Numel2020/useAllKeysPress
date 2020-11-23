@@ -14,10 +14,36 @@ You can either download or copy the `useAllKeysPress.js` file into the directory
 then import it into your application.
 
 ```js
-import useAllKeysPress from '/components/useAllKeysPress'
+import useAllKeysPress from './components/useAllKeysPress'
 ```
+## Examples
+### Basic Usage
 
-## Usage
+```js
+import useAllKeysPress from './hooks/useAllKeysPress'
+
+// Usage
+function App() {
+
+  // Call our hook for each key that we'd like to monitor
+  const happyPress = useKeyPress('h');
+  const sadPress = useKeyPress('s');
+  const robotPress = useKeyPress('r');
+  const foxPress = useKeyPress('f');
+
+  return (
+    <div>
+      <div>h, s, r, f</div>
+      <div>
+        {happyPress && '😊'}
+        {sadPress && '😢'}
+        {robotPress && '🤖'}
+        {foxPress && '🦊'}
+      </div>
+    </div>
+  );
+}
+```
 
 ```python
 import foobar
