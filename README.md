@@ -47,10 +47,9 @@ function App() {
   );
 }
 ```
-### Commands:
+## Options:
 
-#### Single key press
-`{userKeys: 'ArrowDown'}`
+#### Single key press `{userKeys: 'ArrowDown'}`
 ```
  | single key -   update all available gitignore files
 {userKeys: 'ArrowDown', ref: input} | single key -   update all available gitignore files
