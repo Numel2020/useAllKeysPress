@@ -1,6 +1,6 @@
 # useAllKeysPress
 
-There is already a [great solution](https://usehooks.com/useKeyPress/) for making key input detection easy to implement in React. The `useAllKeysPress` hook combines both single and multiple key inputs in one simple React hook.
+There is already a [great solution](https://usehooks.com/useKeyPress/) for making key input detection easy to implement in React. The `useAllKeysPress` elegantly combines single and multiple key inputs into one simple Hook.
 
 ## Features
 
@@ -9,11 +9,8 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
   or another CI system to know if a pull request adds a massive dependency.
 * **Modular** to fit different use cases: big JS applications
   that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+* Detect keys pressed in **order**.
+
 
 ## Installation
 
