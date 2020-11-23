@@ -17,7 +17,7 @@ then import it into your application.
 import useAllKeysPress from './components/useAllKeysPress'
 ```
 ## Examples
-### Basic Usage
+### Single key Usage
 
 ```js
 import useAllKeysPress from './hooks/useAllKeysPress'
@@ -32,7 +32,11 @@ function App() {
 
   return (
     <div>
-      <div>h, s, r, f</div>
+      <div>
+        {zombyPress && 'Z'}
+        {lovePress && 'L'}
+        {brainPress && 'B'}
+      </div>
       <div>
         {zombyPress && '🧟'}
         {lovePress && '🧡'}
@@ -43,6 +47,7 @@ function App() {
   );
 }
 ```
+
 
 ```python
 import foobar
