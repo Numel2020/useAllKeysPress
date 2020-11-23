@@ -22,23 +22,22 @@ import useAllKeysPress from './components/useAllKeysPress'
 ```js
 import useAllKeysPress from './hooks/useAllKeysPress'
 
-// Usage
+
 function App() {
 
   // Call our hook for each key that we'd like to monitor
-  const happyPress = useKeyPress('h');
-  const sadPress = useKeyPress('s');
-  const robotPress = useKeyPress('r');
-  const foxPress = useKeyPress('f');
+  const zombyPress = useKeyPress({userKeys:'z'});
+  const lovePress = useKeyPress({userKeys:'l'});
+  const brainPress = useKeyPress({userKeys:'b'});
 
   return (
     <div>
       <div>h, s, r, f</div>
       <div>
-        {happyPress && '😊'}
-        {sadPress && '😢'}
-        {robotPress && '🤖'}
-        {foxPress && '🦊'}
+        {zombyPress && '🧟'}
+        {lovePress && '🧡'}
+        {brainPress && '🧠'}
+     
       </div>
     </div>
   );
