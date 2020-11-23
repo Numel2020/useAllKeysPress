@@ -4,11 +4,7 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 
 ## Features
 
-* **ES modules** and **tree-shaking** support.
-* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
-  or another CI system to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
+* Detect keys pressed when focused on html elements such as **input**, **textarea** etc.
 * Detect keys pressed in **order**.
 
 
