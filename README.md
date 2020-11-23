@@ -10,12 +10,12 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+You can either download or copy the `useAllKeysPress.js` file into the directory of your project
+then import it into your application.
 
-```bash
-pip install foobar
+```js
+import useAllKeysPress from '/components/useAllKeysPress'
 ```
-
 
 ## Usage
 
