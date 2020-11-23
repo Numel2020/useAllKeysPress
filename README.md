@@ -47,6 +47,20 @@ function App() {
   );
 }
 ```
+### Commands:
+
+```
+{userKeys: 'ArrowDown'} | single key -   update all available gitignore files
+{userKeys: 'ArrowDown', ref: input} | single key -   update all available gitignore files
+
+{userKeys: ['a','s','d]} | multiple keys -   update all available gitignore files
+{userKeys: ['a','s','d],  ref: input} | multiple keys -   update all available gitignore files
+{userKeys: ['a','s','d],  order:true} | multiple keys -   update all available gitignore files
+{userKeys: ['a','s','d],  order:true, ref: input} | multiple keys -   update all available gitignore files
+
+{userKeys: [ArrowDown]} | single key -   update all available gitignore files
+
+```
 
 
 ```python
