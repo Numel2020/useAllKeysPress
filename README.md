@@ -49,7 +49,7 @@ function App() {
 ```
 ## Options:
 
-#### Single key press `{userKeys: 'ArrowDown'}`
+#### `{userKeys: 'ArrowDown'}`
 ```
  | single key -   update all available gitignore files
 {userKeys: 'ArrowDown', ref: input} | single key -   update all available gitignore files
