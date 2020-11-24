@@ -69,7 +69,17 @@ const two = useKeyPress({userKeys:'3'});
 // etc..
 ```
 #### `{userKeys: ['*','*']}`
-This configuration is for key press multiple, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) values into an array select keys detection.
+This configuration is for multiple key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) values into an array for selected keys detection.
+
+```js
+
+// Any configuration
+const hojo = useKeyPress({userKeys:['h','j']});
+const walk = useKeyPress({userKeys:['w','a','l','k']});
+const stepRight = useKeyPress({userKeys:['Shift','ArrowRight']});
+
+// etc..
+```
 
 #### `{userKeys: '*', ref: *}`
 #### `{userKeys: ['*','*'], order: true}`
