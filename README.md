@@ -50,7 +50,7 @@ function App() {
 ## Options:
 
 #### `{userKeys: '*'}`
-This configuration is the default standard for key press detection, simple input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
+This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
 ```js
 // Letters
 const naughty = useKeyPress({userKeys:'n'});
@@ -66,9 +66,11 @@ const one = useKeyPress({userKeys:'1'});
 const two = useKeyPress({userKeys:'2'});
 const two = useKeyPress({userKeys:'3'});
 
-etc..
+// etc..
 ```
 #### `{userKeys: ['*','*']}`
+This configuration is for key press multiple, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) values into an array select keys detection.
+
 #### `{userKeys: '*', ref: *}`
 #### `{userKeys: ['*','*'], order: true}`
 #### `{userKeys: ['*','*'], order: true, ref: *}`
