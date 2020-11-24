@@ -143,7 +143,7 @@ Please make sure to update tests as appropriate.
 
 ## 🙏&nbsp; Acknowledgements
 * [usehooks.com](https://usehooks.com/useKeyPress/) Easy to understand React Hook recipes by [Gabe Ragland](https://github.com/gragland/usehooks)
-* [useMultiKeyPress](https://codesandbox.io/s/y3qzyr3lrz) - A React Hook recipe that detects multiple keys at once. [Joe Hsu](https://github.com/jhsu)
+* [useMultiKeyPress](https://codesandbox.io/s/y3qzyr3lrz) - A React Hook recipe that detects multiple keys at once by [Joe Hsu](https://github.com/jhsu)
 
 ## 📘&nbsp; License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
