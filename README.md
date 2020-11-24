@@ -48,7 +48,7 @@ function App() {
 ```
 ## 🌌&nbsp; Options:
 
-#### `{userKeys: '*'}`
+#### ✅&nbsp; `{userKeys: '*'}`
 This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
 ```js
 // Letters
@@ -67,7 +67,7 @@ const two = useKeyPress({userKeys:'3'});
 
 // etc..
 ```
-#### `{userKeys: ['*','*']}`
+#### ✅&nbsp; `{userKeys: ['*','*']}`
 This configuration is for multiple key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) values into an array for selected keys detection.
 
 ```js
@@ -80,7 +80,7 @@ const stepRight = useKeyPress({userKeys:['Shift','ArrowRight']});
 // etc..
 ```
 
-#### `{userKeys: '*', ref: *}`
+#### ✅&nbsp; `{userKeys: '*', ref: *}`
 This configuration allows you to attach key detection when the user is focused on elements such as `input`, `textarea`, `div` etc.
 
 ```js
