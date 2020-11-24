@@ -26,9 +26,9 @@ import useAllKeysPress from './hooks/useAllKeysPress';
 function App() {
 
   // Call our hook for each key that we'd like to monitor
-  const zombyPress = useKeyPress({userKeys:'z'});
-  const lovePress = useKeyPress({userKeys:'l'});
-  const brainPress = useKeyPress({userKeys:'b'});
+  const zombyPress = useAllKeysPress({userKeys:'z'});
+  const lovePress = useAllKeysPress({userKeys:'l'});
+  const brainPress = useAllKeysPress({userKeys:'b'});
 
   return (
     <div>
@@ -52,18 +52,18 @@ function App() {
 This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
 ```js
 // Letters
-const naughty = useKeyPress({userKeys:'n'});
+const naughty = useAllKeysPress({userKeys:'n'});
 
 // ArroW keys
-const up = useKeyPress({userKeys:'ArrowUp'});
-const down = useKeyPress({userKeys:'ArrowDown'});
-const left = useKeyPress({userKeys:'ArrowLeft'});
-const right = useKeyPress({userKeys:'ArrowRight'});
+const up = useAllKeysPress({userKeys:'ArrowUp'});
+const down = useAllKeysPress({userKeys:'ArrowDown'});
+const left = useAllKeysPress({userKeys:'ArrowLeft'});
+const right = useAllKeysPress({userKeys:'ArrowRight'});
 
 // Numbers
-const one = useKeyPress({userKeys:'1'});
-const two = useKeyPress({userKeys:'2'});
-const two = useKeyPress({userKeys:'3'});
+const one = useAllKeysPress({userKeys:'1'});
+const two = useAllKeysPress({userKeys:'2'});
+const two = useAllKeysPress({userKeys:'3'});
 
 // etc..
 ```
@@ -73,9 +73,9 @@ This configuration is for multiple key press detection, simply input the [`Keybo
 ```js
 
 // Any configuration
-const hojo = useKeyPress({userKeys:['h','j']});
-const walk = useKeyPress({userKeys:['w','a','l','k']});
-const stepRight = useKeyPress({userKeys:['Shift','ArrowRight']});
+const hojo = useAllKeysPress({userKeys:['h','j']});
+const walk = useAllKeysPress({userKeys:['w','a','l','k']});
+const stepRight = useAllKeysPress({userKeys:['Shift','ArrowRight']});
 
 // etc..
 ```
@@ -93,7 +93,7 @@ function App() {
 const input = useRef(null);
 
 // Call our hook for each key that we'd like to monitor
-const up = useKeyPress({userKeys:'ArrowUp'});
+const up = useAllKeysPress({userKeys:'ArrowUp'});
 
   return (
     <div>
@@ -118,7 +118,7 @@ function App() {
 
   // Call our hook for the array of keys that we'd like to monitor
   // These keys must be pressed in order for a 'true' result.
-  const easyAs = useKeyPress({userKeys:['a','b','c']});
+  const easyAs = useAllKeysPress({userKeys:['a','b','c']});
 
 
   return (
