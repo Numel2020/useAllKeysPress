@@ -124,7 +124,9 @@ function App() {
   return (
     <div>
       <div>
-        {easyAs && <p>Easy as 1, 2, 3'</p>}
+      <h4>All you gotta do is repeat after me</h4>
+       <h3>A B C</h3>
+        {easyAs && <h3>Easy as 1, 2, 3'</h3>}
       </div>
       <div>
         {easyAs && '🧡💃💃💃🧡'}
@@ -133,13 +135,6 @@ function App() {
   );
 }
 ```
-
-
-#### `{userKeys: ['*','*'], order: true, ref: *}`
-
-
-
-
 
 
 ## Contributing
