@@ -50,7 +50,10 @@ function App() {
 ## Options:
 
 #### `{userKeys: '*'}`
-This configuration is the default standard for key press detection, simple input the `KeyboardEvent interface's` hjhjh `**key**` 
+This configuration is the default standard for key press detection, simple input the `KeyboardEvent.key` value for the selected key.
+```js
+const naughty = useKeyPress({userKeys:'n'});
+```
 #### `{userKeys: ['*','*']}`
 #### `{userKeys: '*', ref: *}`
 #### `{userKeys: ['*','*'], order: true}`
