@@ -49,7 +49,13 @@ function App() {
 ```
 ## Options:
 
-#### `{userKeys: '...'}`
+#### `{userKeys: '*'}`
+This configuration is the default standard for key press detection, simple input the `KeyboardEvent interface's` hjhjh `**key**` 
+#### `{userKeys: ['*','*']}`
+#### `{userKeys: '*', ref: *}`
+#### `{userKeys: ['*','*'], order: true}`
+#### `{userKeys: ['*','*'], order: true, ref: *}`
+
 ```
  | single key -   update all available gitignore files
 {userKeys: 'ArrowDown', ref: input} | single key -   update all available gitignore files
