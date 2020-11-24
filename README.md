@@ -2,7 +2,7 @@
 
 There is already a [great solution](https://usehooks.com/useKeyPress/) for making key input detection easy to implement in React. The `useAllKeysPress` elegantly combines single and multiple key inputs into one simple Hook.
 
-## Features
+### 🚀&nbsp; Features
 
 * Detect keys pressed when focused on html elements such as **input,** **textarea,** **div** etc.
 * Detect keys pressed in **order**.
