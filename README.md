@@ -16,7 +16,7 @@ then import it into your application.
 ```js
 import useAllKeysPress from './components/useAllKeysPress'
 ```
-## 🚀&nbsp; Example
+## 🌠&nbsp; Example
 ### Single key Usage
 
 ```js
