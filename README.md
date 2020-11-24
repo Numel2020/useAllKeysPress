@@ -20,8 +20,8 @@ import useAllKeysPress from './components/useAllKeysPress'
 ### Single key Usage
 
 ```js
-import useAllKeysPress from './hooks/useAllKeysPress'
-
+import React from "react";
+import useAllKeysPress from './hooks/useAllKeysPress';
 
 function App() {
 
@@ -41,7 +41,6 @@ function App() {
         {zombyPress && '🧟'}
         {lovePress && '🧡'}
         {brainPress && '🧠'}
-     
       </div>
     </div>
   );
@@ -82,6 +81,37 @@ const stepRight = useKeyPress({userKeys:['Shift','ArrowRight']});
 ```
 
 #### `{userKeys: '*', ref: *}`
+This configuration allows you to attach key detection when the user is focused on elements such as input, textarea, div etc.
+
+```js
+import React, {useRef} from "react";
+import useAllKeysPress from './hooks/useAllKeysPress';
+
+
+function App() {
+
+const input = useRef(null);
+
+// Call our hook for each key that we'd like to monitor
+const up = useKeyPress({userKeys:'ArrowUp'});
+
+
+  return (
+    <div>
+      <div>
+        {zombyPress && 'Z'}
+        {lovePress && 'L'}
+        {brainPress && 'B'}
+      </div>
+      <div>
+        {zombyPress && '🧟'}
+        {lovePress && '🧡'}
+        {brainPress && '🧠'}
+      </div>
+    </div>
+  );
+}
+```
 #### `{userKeys: ['*','*'], order: true}`
 #### `{userKeys: ['*','*'], order: true, ref: *}`
 
