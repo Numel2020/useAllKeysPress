@@ -8,7 +8,7 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 * Detect keys pressed in **order**.
 
 
-## 🚀&nbsp; Installation
+## 🌟&nbsp; Installation
 
 You can either download or copy the `useAllKeysPress.js` file into the directory of your project
 then import it into your application.
@@ -16,7 +16,7 @@ then import it into your application.
 ```js
 import useAllKeysPress from './components/useAllKeysPress'
 ```
-## 🚀&nbsp; Examples
+## 🚀&nbsp; Example
 ### Single key Usage
 
 ```js
