@@ -141,9 +141,8 @@ function App() {
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
 
-## 🙏&nbsp; Acknoledgments
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+## 🙏&nbsp; Acknowledgements
+[usehooks.com](https://usehooks.com/useKeyPress/) Easy to understand React Hook recipes by [Gabe Ragland](https://github.com/gragland/usehooks)
 
 ## 📘&nbsp; License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
