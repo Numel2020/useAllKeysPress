@@ -4,7 +4,7 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 
 ## Features
 
-* Detect keys pressed when focused on html elements such as **input**, **textarea** etc.
+* Detect keys pressed when focused on html elements such as **input,** **textarea,** **div** etc.
 * Detect keys pressed in **order**.
 
 
