@@ -108,29 +108,39 @@ const up = useKeyPress({userKeys:'ArrowUp'});
 }
 ```
 #### `{userKeys: ['*','*'], order: true}`
+This configuration will only return true if the keys are pressed in the corresponding order.
+
+```js
+import React from "react";
+import useAllKeysPress from './hooks/useAllKeysPress';
+
+function App() {
+
+  // Call our hook for the array of keys that we'd like to monitor
+  // These keys must be pressed in order for a 'true' result.
+  const easyAs = useKeyPress({userKeys:['a','b','c']});
+
+
+  return (
+    <div>
+      <div>
+        {easyAs && <p>Easy as 1, 2, 3'</p>}
+      </div>
+      <div>
+        {easyAs && '🧡💃💃💃🧡'}
+      </div>
+    </div>
+  );
+}
+```
+
+
 #### `{userKeys: ['*','*'], order: true, ref: *}`
 
-```
- | single key -   update all available gitignore files
-{userKeys: 'ArrowDown', ref: input} | single key -   update all available gitignore files
-
-{userKeys: ['a','s','d]} | multiple keys -   update all available gitignore files
-{userKeys: ['a','s','d],  ref: input} | multiple keys -   update all available gitignore files
-{userKeys: ['a','s','d],  order:true} | multiple keys -   update all available gitignore files
-{userKeys: ['a','s','d],  order:true, ref: input} | multiple keys -   update all available gitignore files
-
-{userKeys: [ArrowDown]} | single key -   update all available gitignore files
-
-```
 
 
-```python
-import foobar
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
