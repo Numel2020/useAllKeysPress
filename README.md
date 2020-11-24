@@ -50,9 +50,23 @@ function App() {
 ## Options:
 
 #### `{userKeys: '*'}`
-This configuration is the default standard for key press detection, simple input the `KeyboardEvent.key` value for the selected key.
+This configuration is the default standard for key press detection, simple input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
 ```js
+// Letters
 const naughty = useKeyPress({userKeys:'n'});
+
+// ArroW keys
+const up = useKeyPress({userKeys:'ArrowUp'});
+const down = useKeyPress({userKeys:'ArrowDown'});
+const left = useKeyPress({userKeys:'ArrowLeft'});
+const right = useKeyPress({userKeys:'ArrowRight'});
+
+// Numbers
+const one = useKeyPress({userKeys:'1'});
+const two = useKeyPress({userKeys:'2'});
+const two = useKeyPress({userKeys:'3'});
+
+etc..
 ```
 #### `{userKeys: ['*','*']}`
 #### `{userKeys: '*', ref: *}`
