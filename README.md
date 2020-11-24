@@ -107,7 +107,7 @@ const up = useKeyPress({userKeys:'ArrowUp'});
   );
 }
 ```
-#### `{userKeys: ['*','*'], order: true}`
+#### ✅&nbsp; `{userKeys: ['*','*'], order: true}`
 This configuration will only return true if the keys are pressed in the corresponding order.
 
 ```js
