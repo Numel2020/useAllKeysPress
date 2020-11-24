@@ -46,7 +46,7 @@ function App() {
   );
 }
 ```
-## 🚀&nbsp; Options:
+## 🌌&nbsp; Options:
 
 #### `{userKeys: '*'}`
 This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
@@ -139,7 +139,6 @@ function App() {
 
 ## ❤️&nbsp; Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 Please make sure to update tests as appropriate.
 
 ## 📘&nbsp; License
