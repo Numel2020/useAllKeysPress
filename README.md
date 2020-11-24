@@ -81,7 +81,7 @@ const stepRight = useKeyPress({userKeys:['Shift','ArrowRight']});
 ```
 
 #### `{userKeys: '*', ref: *}`
-This configuration allows you to attach key detection when the user is focused on elements such as input, textarea, div etc.
+This configuration allows you to attach key detection when the user is focused on elements such as `input`, `textarea`, `div` etc.
 
 ```js
 import React, {useRef} from "react";
@@ -95,18 +95,13 @@ const input = useRef(null);
 // Call our hook for each key that we'd like to monitor
 const up = useKeyPress({userKeys:'ArrowUp'});
 
-
   return (
     <div>
       <div>
-        {zombyPress && 'Z'}
-        {lovePress && 'L'}
-        {brainPress && 'B'}
+      <input type="text" ref={input}/>
       </div>
       <div>
-        {zombyPress && '🧟'}
-        {lovePress && '🧡'}
-        {brainPress && '🧠'}
+        {up && '🦾🧒🦿🧐'}
       </div>
     </div>
   );
