@@ -1,6 +1,6 @@
 # useAllKeysPress
 
-There is already a [great solution](https://usehooks.com/useKeyPress/) for making key input detection easy to implement in React. The `useAllKeysPress` elegantly combines single and multiple key inputs into one simple Hook.
+There is already a [great solution](https://usehooks.com/useKeyPress/) for making key input detection easy to implement in React, however `useAllKeysPress` elegantly combines single and multiple key inputs into one simple Hook.
 
 ### 🚀&nbsp; Features
 
