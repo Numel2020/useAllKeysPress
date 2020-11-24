@@ -8,7 +8,7 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 * Detect keys pressed in **order**.
 
 
-## Installation
+##🚀&nbsp; Installation
 
 You can either download or copy the `useAllKeysPress.js` file into the directory of your project
 then import it into your application.
@@ -16,7 +16,7 @@ then import it into your application.
 ```js
 import useAllKeysPress from './components/useAllKeysPress'
 ```
-## Examples
+##🚀&nbsp; Examples
 ### Single key Usage
 
 ```js
@@ -46,7 +46,7 @@ function App() {
   );
 }
 ```
-## Options:
+##🚀&nbsp; Options:
 
 #### `{userKeys: '*'}`
 This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
@@ -137,10 +137,10 @@ function App() {
 ```
 
 
-## Contributing
+##🚀&nbsp; Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+##🚀&nbsp; License
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
