@@ -18,13 +18,13 @@ There is already a [great solution](https://usehooks.com/useKeyPress/) for makin
 You can either download or copy the `useAllKeysPress.js` file into the directory of your project
 then import it into your application.
 
-```js
+```javascript
 import useAllKeysPress from './components/useAllKeysPress'
 ```
 ## 🌠&nbsp; Example
 ### Single key Usage
 
-```js
+```javascript
 import React from "react";
 import useAllKeysPress from './hooks/useAllKeysPress';
 
@@ -55,7 +55,7 @@ function App() {
 
 #### ✅&nbsp; `{userKeys: '*'}`
 This configuration is for single key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) value for the selected key.
-```js
+```javascript
 // Letters
 const naughty = useAllKeysPress({userKeys:'n'});
 
@@ -75,7 +75,7 @@ const two = useAllKeysPress({userKeys:'3'});
 #### ✅&nbsp; `{userKeys: ['*','*']}`
 This configuration is for multiple key press detection, simply input the [`KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) values into an array for selected keys detection.
 
-```js
+```javascript
 
 // Any configuration
 const hojo = useAllKeysPress({userKeys:['h','j']});
@@ -88,7 +88,7 @@ const stepRight = useAllKeysPress({userKeys:['Shift','ArrowRight']});
 #### ✅&nbsp; `{userKeys: '*', ref: *}`
 This configuration allows you to attach key detection when the user is focused on elements such as `input`, `textarea`, `div` etc.
 
-```js
+```javascript
 import React, {useRef} from "react";
 import useAllKeysPress from './hooks/useAllKeysPress';
 
@@ -115,7 +115,7 @@ const up = useAllKeysPress({userKeys:'ArrowUp'});
 #### ✅&nbsp; `{userKeys: ['*','*'], order: true}`
 This configuration will only return true if the keys are pressed in the corresponding order.
 
-```js
+```javascript
 import React from "react";
 import useAllKeysPress from './hooks/useAllKeysPress';
 
