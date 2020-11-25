@@ -144,7 +144,7 @@ function App() {
 ```
 ## know issues
 You may come across situations where certain combination of keys pressed do not work. This is a hardware specfic issue which unfornately goes beyond the scope of `useAllkeysPress` for further information please read the article below:
-* [limitations of the keyboard] (https://gaming.stackexchange.com/questions/6669/how-do-i-remove-the-limit-on-pc-keyboard-button-presses) 
+* [Limitations of the keyboard](https://gaming.stackexchange.com/questions/6669/how-do-i-remove-the-limit-on-pc-keyboard-button-presses) 
 
 
 ## ❤️&nbsp; Contributing
