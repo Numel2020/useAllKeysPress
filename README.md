@@ -1,7 +1,9 @@
 
 
 <p align="center"><img alt="useAllKeysPress logo" title="useAllKeysPress" width=48% src="./keypress.jpg"></p>
-<h3 align="center">  Multiple key detection in React  </h1>
+<h3 align="center"> *** Multiple key detection in React *** </h1>
+	&nbsp;
+  	&nbsp;
 
 # useAllKeysPress
 
