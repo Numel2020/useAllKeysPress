@@ -1,6 +1,6 @@
-<a href="https://aimeos.org/">
-    <img src="./keypress.jpg" alt="useAllKeysPress logo" title="useAllKeysPress" align="right" height="250" />
-</a>
+
+
+<p align="center"><img alt="useAllKeysPress logo" title="useAllKeysPress" width=12.5% src="./keypress.jpg"></p>
 
 # useAllKeysPress
 
