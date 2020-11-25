@@ -143,8 +143,8 @@ function App() {
 }
 ```
 ## know issues
-you may come across situations where certain combination of keys press do not work this is a hardware specfic issure which unfornately goes beyond the scope of `useAllkeys press` for further information please read the article below.
-* EDIT: I Just stumbled across this article which explains the limitations ok the keyboard and why you will have issues with some key combinations.
+You may come across situations where certain combination of keys pressed do not work. This is a hardware specfic issue which unfornately goes beyond the scope of `useAllkeysPress` for further information please read the article below:
+* [limitations of the keyboard] (https://gaming.stackexchange.com/questions/6669/how-do-i-remove-the-limit-on-pc-keyboard-button-presses) 
 
 
 ## ❤️&nbsp; Contributing
