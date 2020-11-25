@@ -143,6 +143,8 @@ function App() {
 }
 ```
 ## know issues
+you may come across situations where certain combination of keys press do not work this is a hardware specfic issure which unfornately goes beyond the scope of `useAllkeys press` for further information please read the article below.
+* EDIT: I Just stumbled across this article which explains the limitations ok the keyboard and why you will have issues with some key combinations.
 
 
 ## ❤️&nbsp; Contributing
