@@ -125,7 +125,7 @@ function App() {
 
   // Call our hook for the array of keys that we'd like to monitor
   // These keys must be pressed in order for a 'true' result.
-  const easyAs = useAllKeysPress({userKeys:['a','b','c']});
+  const easyAs = useAllKeysPress({userKeys:['a','b','c'], order:true});
 
 
   return (
