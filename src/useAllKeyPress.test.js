@@ -3,7 +3,7 @@ import { renderHook, act } from '@testing-library/react-hooks';
 import useAllKeyPress from './useAllKeyPress';
 
 /**
- * Testing parts of useAllKeypress Hook
+ * Testing parts of useAllKeysPress Hook
  * 1. Hook initialisation
  * 2. Hook user interaction
  * 3. Hook output
