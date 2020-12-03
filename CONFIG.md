@@ -5,20 +5,20 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 * Multiple keys
 * Multiple keys in order 
 
+#### NOTE: The below code samples are purely for reference use whatever letters you wish.
 
+## Single Key
 
-
-## setup
+### Keys setup
 
 ```js
-const avoPress = useAllKeysPress({ userKeys: "a" });
+  const avoPress = useAllKeysPress({ userKeys: "a" });
   const waterPress = useAllKeysPress({ userKeys: "w" });
   const duckPress = useAllKeysPress({ userKeys: "d" });
   const foxPress = useAllKeysPress({ userKeys: "f" });
-  const combinePress = useAllKeysPress({ userKeys: ["a", "w", "d", "f"] });
 ```
 
-## inputs
+## Inputs
 
 ```js
   const inputs = [
@@ -32,5 +32,26 @@ const avoPress = useAllKeysPress({ userKeys: "a" });
 ## status
 
 ```js
+// Aids in the detection of the first key pressed in.
  const anyKeyPressed = inputs.some((item) => item.input === true);
+```
+
+## Title component
+```jsx
+ <Title
+   heading={"Single Key Usage"} //test
+   subtext={"Press the key and see"}
+ />
+```
+
+### Keys setup
+
+```js
+  const avoPress = useAllKeysPress({ userKeys: "a" });
+  const waterPress = useAllKeysPress({ userKeys: "w" });
+  const duckPress = useAllKeysPress({ userKeys: "d" });
+  const foxPress = useAllKeysPress({ userKeys: "f" });
+  
+  // this variable will when all are pressed
+  const combinePress = useAllKeysPress({ userKeys: ["a", "w", "d", "f"] });
 ```
