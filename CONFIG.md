@@ -39,7 +39,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ## Title component
 ```jsx
  <Title
-   heading={"Single Key Usage"} //test
+   heading={"Single Key Usage"} 
    subtext={"Press the key and see"}
  />
 ```
@@ -133,7 +133,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   const duckPress = useAllKeysPress({ userKeys: "d" });
   const foxPress = useAllKeysPress({ userKeys: "f" });
   
-  // this variable will when all are pressed
+  // this variable represents will when all are pressed
   const combinePress = useAllKeysPress({ userKeys: ["a", "w", "d", "f"] });
 ```
 
@@ -198,6 +198,9 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   const akeyPress = useAllKeysPress({ userKeys: "a" });
   const bkeyPress = useAllKeysPress({ userKeys: "b" });
   const ckeyPress = useAllKeysPress({ userKeys: "c" });
+  
+  // this variable represents will when all are pressed in order
+  const combinePress = useAllKeysPress({ userKeys: ["a", "b", "c"], order: true });
 ```
 
 ### Inputs
@@ -215,4 +218,39 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```js
 // Aids in the detection of the first key pressed in.
  const anyKeyPressed = inputs.some((item) => item.input === true);
+```
+
+## Title component
+```jsx
+ <Title
+   heading={"Multiple Keys in order"} 
+   subtext={"Press the key and see"}
+ />
+```
+
+## UseAllKeypad component
+```jsx
+ <UseAllKeypad 
+  inputs={inputs} 
+  type={"multi"}
+ />
+```
+
+## Screen component
+```jsx
+ <Screen
+  activate={anyKeyPressed}
+  input={inputs}
+  combine={combinePress}
+  type={"multi"}
+  message={"All you gotto do is repeat after me!!"}
+ ></Screen>
+```
+
+## UserOutput component
+```jsx
+  <UserOutput 
+  items={inputs}
+  combine={combinePress}
+  />
 ```
