@@ -54,9 +54,14 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
  <Screen
   activate={anyKeyPressed}
   input={inputs}
- >
- {/* accepts children */}
- </Screen>
+ ></Screen>
+```
+
+## UserOutput component
+```jsx
+  <UserOutput 
+  items={inputs} 
+  />
 ```
 
 ### Keys setup
