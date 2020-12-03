@@ -242,7 +242,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   activate={anyKeyPressed}
   input={inputs}
   combine={combinePress}
-  type={"multi"}
+  type={"jackson"}
   message={"All you gotto do is repeat after me!!"}
  ></Screen>
 ```
