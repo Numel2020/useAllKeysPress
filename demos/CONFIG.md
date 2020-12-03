@@ -189,9 +189,10 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 # Multiple keys in order
 
-### Keys setup
+![multiple keys in order](./jackson.gif)
 
-![Alt Text](./jackson.gif)
+
+### Keys setup
 
 ```js
   // create a ref to attach to the element that will have focus
