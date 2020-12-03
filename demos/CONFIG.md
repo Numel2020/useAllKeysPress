@@ -191,6 +191,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 ### Keys setup
 
+![Alt Text](./jackson.gif)
+
 ```js
   // create a ref to attach to the element that will have focus
   const input = useRef(null)
