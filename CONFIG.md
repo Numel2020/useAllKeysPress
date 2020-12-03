@@ -186,3 +186,33 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   combine={combinePress}
   />
 ```
+
+# Multiple keys in order
+
+### Keys setup
+
+```js
+  // create a ref to attach to the element that will have focus
+  const input = useRef(null)
+  
+  const akeyPress = useAllKeysPress({ userKeys: "a" });
+  const bkeyPress = useAllKeysPress({ userKeys: "b" });
+  const ckeyPress = useAllKeysPress({ userKeys: "c" });
+```
+
+### Inputs
+
+```js
+ const inputs = [
+    { input: akeyPress, key: "a"},
+    { input: bkeyPress, key: "b"},
+    { input: ckeyPress, key: "c"},
+  ];
+```
+
+### status
+
+```js
+// Aids in the detection of the first key pressed in.
+ const anyKeyPressed = inputs.some((item) => item.input === true);
+```
