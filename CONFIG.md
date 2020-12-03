@@ -64,6 +64,65 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
+# Key on Focused Element
+
+### Keys setup
+
+```js
+  // create a ref to attach to the element that will have focus
+  const input = useRef(null)
+  
+  const upPress = useAllKeysPress({ userKeys: "ArrowUp" });
+  const downPress = useAllKeysPress({ userKeys: "ArrowDown" });
+```
+
+### Inputs
+
+```js
+  const inputs = [
+    { input: upPress, key: "a", symbol: "🤗" },
+    { input: downPress, key: "w", symbol: "🤮" }
+  ];
+```
+
+### status
+
+```js
+// Aids in the detection of the first key pressed in.
+ const anyKeyPressed = inputs.some((item) => item.input === true);
+```
+
+## Title component
+```jsx
+ <Title
+   heading={"Key on Focused Element"} 
+   subtext={"Press the key and see"}
+ />
+```
+## UseAllKeypad component
+```jsx
+ <UseAllKeypad 
+  inputs={inputs} 
+ />
+```
+## Screen component
+```jsx
+ <Screen
+  activate={anyKeyPressed}
+  input={inputs}
+ >
+   // element to be referenced on focus.
+   <UseAllInput ref={input} />
+ </Screen>
+```
+
+## UserOutput component
+```jsx
+  <UserOutput 
+  items={inputs} 
+  />
+```
+
 ### Keys setup
 
 ```js
