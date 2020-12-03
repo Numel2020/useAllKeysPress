@@ -123,6 +123,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
+# Multiple Keys
+
 ### Keys setup
 
 ```js
@@ -133,4 +135,54 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   
   // this variable will when all are pressed
   const combinePress = useAllKeysPress({ userKeys: ["a", "w", "d", "f"] });
+```
+
+### Inputs
+
+```js
+  const inputs = [
+    { input: avoPress, key: "a", symbol: "🥑" },
+    { input: waterPress, key: "w", symbol: "🤽" },
+    { input: duckPress, key: "d", symbol: "🦆" },
+    { input: foxPress, key: "f", symbol: "🦊" }
+  ];
+```
+
+### status
+
+```js
+// Aids in the detection of the first key pressed in.
+ const anyKeyPressed = inputs.some((item) => item.input === true);
+```
+
+## Title component
+```jsx
+ <Title
+   heading={"Multiple Keys"} 
+   subtext={"Press the key and see"}
+ />
+```
+
+## UseAllKeypad component
+```jsx
+ <UseAllKeypad 
+  inputs={inputs} 
+  type={"multi"}
+ />
+```
+
+## Screen component
+```jsx
+ <Screen
+  activate={anyKeyPressed}
+  input={inputs}
+ ></Screen>
+```
+
+## UserOutput component
+```jsx
+  <UserOutput 
+  items={inputs}
+  combine={combinePress}
+  />
 ```
