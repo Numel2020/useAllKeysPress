@@ -1,5 +1,12 @@
 # Configuration
-gfdgfdgfdgfd
+This file is the configuration guide in creating the `useAllKeysPress` demos, these examples are:
+* Single Key 
+* Key on Focused Element
+* Multiple keys
+* Multiple keys in order 
+
+
+
 
 ## setup
 
@@ -20,4 +27,10 @@ const avoPress = useAllKeysPress({ userKeys: "a" });
     { input: duckPress, key: "d", symbol: "🦆" },
     { input: foxPress, key: "f", symbol: "🦊" }
   ];
+```
+
+## status
+
+```js
+ const anyKeyPressed = inputs.some((item) => item.input === true);
 ```
