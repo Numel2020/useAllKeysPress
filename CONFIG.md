@@ -43,6 +43,21 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
    subtext={"Press the key and see"}
  />
 ```
+## UseAllKeypad component
+```jsx
+ <UseAllKeypad 
+  inputs={inputs} 
+ />
+```
+## Screen component
+```jsx
+ <Screen
+  activate={anyKeyPressed}
+  input={inputs}
+ >
+ {/* accepts children */}
+ </Screen>
+```
 
 ### Keys setup
 
