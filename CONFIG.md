@@ -7,7 +7,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 #### NOTE: The below code samples are purely for reference use whatever letters you wish.
 
-## Single Key
+# Single Key
 
 ### Keys setup
 
@@ -18,7 +18,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   const foxPress = useAllKeysPress({ userKeys: "f" });
 ```
 
-## Inputs
+### Inputs
 
 ```js
   const inputs = [
@@ -29,7 +29,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   ];
 ```
 
-## status
+### status
 
 ```js
 // Aids in the detection of the first key pressed in.
