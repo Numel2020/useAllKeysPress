@@ -5,7 +5,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
  ### 3. [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
  ### 4. [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 
-#### NOTE: The below code samples are purely for reference use whatever letters you wish.
+#### NOTE: The below code samples are purely for reference. You can use whatever letters you wish.
 
 # 1. Single Key
 
