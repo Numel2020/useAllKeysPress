@@ -1,13 +1,13 @@
 # Configuration
 This file is the configuration guide in creating the `useAllKeysPress` demos, these examples are:
-### [Single Key ](https://codesandbox.io/s/single-key-usage-bmfxi)
-### [Key on Focused Element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
-### [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
-### [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
+ ### 1. [Single Key ](https://codesandbox.io/s/single-key-usage-bmfxi)
+ ### 2. [Key on Focused Element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
+ ### 3. [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
+ ### 4. [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 
 #### NOTE: The below code samples are purely for reference use whatever letters you wish.
 
-# Single Key
+# 1. Single Key
 
 ### Keys setup
 
@@ -64,7 +64,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
-# Key on Focused Element
+# 2. Key on Focused Element
 
 ### Keys setup
 
@@ -123,7 +123,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
-# Multiple Keys
+# 3. Multiple Keys
 
 ### Keys setup
 
@@ -187,7 +187,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
-# Multiple keys in order
+# 4. Multiple keys in order
 
 ![multiple keys in order](./jackson.gif)
 
