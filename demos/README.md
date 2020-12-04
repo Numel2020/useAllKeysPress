@@ -10,7 +10,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 # 1. Single key
 
 <div align="center">
- <img src="https://github.com/Numel2020/useAllKeysPress/demos/screenshots/SK.gif" />
+ <img src="https://github.com/Numel2020/useAllKeysPress/blob/176ace3e91817f0cc5898d27484bfe086a41b087/demos/screenshots/SK.gif" />
 </div>
  ![Single key - demo example](./screenshots/SK.gif)
 
