@@ -6,7 +6,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
  ### 4. [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 
 #### NOTE: The below code samples are purely for reference. You can use whatever letters you wish.
-
+---
 # 1. Single key
 
 <div align="center">
@@ -69,6 +69,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   items={inputs} 
   />
 ```
+---
 
 # 2. Key on focused element
 
@@ -132,7 +133,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   items={inputs} 
   />
 ```
-
+---
 # 3. Multiple keys
 
 
@@ -203,10 +204,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   combine={combinePress}
   />
 ```
-
+---
 # 4. Multiple keys in order
-
-
 <div align="center">
   <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/a6074a87d695f4b9c2e51c4a1d7ea1b869f71d7c/demos/screenshots/MKIO.gif" />
  </div>
