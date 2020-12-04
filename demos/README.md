@@ -137,7 +137,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 
 <div align="center">
-  <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/8acc7a57a70d322f0ee7328e44a9c580d7f4e60c/demos/screenshots/MK.gif" />
+  <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/184e67ee8d7648a7429d0571698edf4305d0cd0d/demos/screenshots/MK.gif" />
  </div>
 
 
