@@ -135,9 +135,12 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 # 3. Multiple keys
 
+
 <div align="center">
-![Multiple keys - demo example](./screenshots/MK.gif)
+  <img width="50%" src=" https://github.com/Numel2020/useAllKeysPress/blob/9f843b381159894330f906a27275e0c72835cd81/demos/screenshots/MK.gif" />
  </div>
+
+
 
 ### Keys setup
 
@@ -205,7 +208,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 
 <div align="center">
-![Multiple keys in order - demo example](./screenshots/MKIO.gif)
+  <img width="50%" src=" https://github.com/Numel2020/useAllKeysPress/blob/9f843b381159894330f906a27275e0c72835cd81/demos/screenshots/MK.gif" />
  </div>
 
 
