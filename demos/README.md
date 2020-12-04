@@ -8,7 +8,10 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 #### NOTE: The below code samples are purely for reference. You can use whatever letters you wish.
 
 # 1. Single key
-![Single key - demo example](./screenshots/SK.gif)
+<div align="center">
+ ![Single key - demo example](./screenshots/SK.gif)
+</div>
+
 
 ### Keys setup
 
