@@ -9,6 +9,9 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 # 1. Single key
 
+<div style="text-align: center">
+ <img src="https://github.com/Numel2020/useAllKeysPress/edit/main/demos/screenshots/SK.gif" />
+</div>
  ![Single key - demo example](./screenshots/SK.gif)
 
 
