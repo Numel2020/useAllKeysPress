@@ -72,16 +72,16 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   // create a ref to attach to the element that will have focus
   const input = useRef(null)
   
-  const upPress = useAllKeysPress({ userKeys: "ArrowUp" });
-  const downPress = useAllKeysPress({ userKeys: "ArrowDown" });
+  const upPress = useAllKeysPress({ userKeys: "ArrowUp", ref: input });
+  const downPress = useAllKeysPress({ userKeys: "ArrowDown", ref: input });
 ```
 
 ### Inputs
 
 ```js
   const inputs = [
-    { input: upPress, key: "a", symbol: "🤗" },
-    { input: downPress, key: "w", symbol: "🤮" }
+    { input: upPress, key: "ArrowUp", symbol: "🤗" },
+    { input: downPress, key: "ArrowDown", symbol: "🤮" }
   ];
 ```
 
