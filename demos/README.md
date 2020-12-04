@@ -71,7 +71,10 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```
 
 # 2. Key on focused element
+
+<div align="center">
 ![key on focused element - demo example](./screenshots/KOFE.gif)
+ </div>
 
 ### Keys setup
 
@@ -131,7 +134,10 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```
 
 # 3. Multiple keys
+
+<div align="center">
 ![Multiple keys - demo example](./screenshots/MK.gif)
+ </div>
 
 ### Keys setup
 
@@ -197,7 +203,10 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 # 4. Multiple keys in order
 
+
+<div align="center">
 ![Multiple keys in order - demo example](./screenshots/MKIO.gif)
+ </div>
 
 
 ### Keys setup
