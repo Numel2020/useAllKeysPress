@@ -1,9 +1,9 @@
 # Configuration
 This file is the configuration guide in creating the `useAllKeysPress` demos, these examples are:
-* Single Key 
-* Key on Focused Element
-* Multiple keys
-* Multiple keys in order 
+### [Single Key ](https://codesandbox.io/s/single-key-usage-bmfxi)
+### [Key on Focused Element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
+### [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
+### [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 
 #### NOTE: The below code samples are purely for reference use whatever letters you wish.
 
