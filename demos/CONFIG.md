@@ -39,8 +39,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ## Title component
 ```jsx
  <Title
-   heading={"Single Key Usage"} 
-   subtext={"Press the key and see"}
+   heading={"Single key usage"} 
+   subtext={"Press the key and see."}
  />
 ```
 ## UseAllKeypad component
@@ -96,7 +96,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```jsx
  <Title
    heading={"Key on Focused Element"} 
-   subtext={"Press the key and see"}
+   subtext={"Press the key and see."}
  />
 ```
 ## UseAllKeypad component
@@ -158,8 +158,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ## Title component
 ```jsx
  <Title
-   heading={"Multiple Keys"} 
-   subtext={"Press the key and see"}
+   heading={"Multiple keys"} 
+   subtext={"Press the keys and see."}
  />
 ```
 
@@ -223,8 +223,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ## Title component
 ```jsx
  <Title
-   heading={"Multiple Keys in order"} 
-   subtext={"Press the key and see"}
+   heading={"Multiple keys in order"} 
+   subtext={"Press the keys and see."}
  />
 ```
 
