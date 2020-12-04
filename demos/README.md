@@ -1,7 +1,7 @@
 # Configuration
 This file is the configuration guide in creating the `useAllKeysPress` demos, these examples are:
- ### 1. [Single Key ](https://codesandbox.io/s/single-key-usage-bmfxi)
- ### 2. [Key on Focused Element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
+ ### 1. [Single key ](https://codesandbox.io/s/single-key-usage-bmfxi)
+ ### 2. [Key on focused element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
  ### 3. [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
  ### 4. [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 
@@ -64,7 +64,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
-# 2. Key on Focused Element
+# 2. Key on focused element
 
 ### Keys setup
 
@@ -123,7 +123,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
   />
 ```
 
-# 3. Multiple Keys
+# 3. Multiple keys
 
 ### Keys setup
 
