@@ -142,6 +142,11 @@ function App() {
   );
 }
 ```
+## Demos
+ ### 1. [Single key ](https://codesandbox.io/s/single-key-usage-bmfxi)
+ ### 2. [Key on focused element](https://codesandbox.io/s/key-on-focused-element-c1gpb)
+ ### 3. [Multiple keys](https://codesandbox.io/s/multiple-keys-jhfdn)
+ ### 4. [Multiple keys in order ](https://codesandbox.io/s/multiple-keys-in-order-vpovi)
 ## know issues
 You may come across situations where certain combination of keys pressed do not work. This is a hardware specfic issue which unfornately goes beyond the scope of `useAllkeysPress` for further information please read the article below:
 * [Limitations of the keyboard](https://gaming.stackexchange.com/questions/6669/how-do-i-remove-the-limit-on-pc-keyboard-button-presses) 
