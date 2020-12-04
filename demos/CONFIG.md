@@ -195,9 +195,6 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ### Keys setup
 
 ```js
-  // create a ref to attach to the element that will have focus
-  const input = useRef(null)
-  
   const akeyPress = useAllKeysPress({ userKeys: "a" });
   const bkeyPress = useAllKeysPress({ userKeys: "b" });
   const ckeyPress = useAllKeysPress({ userKeys: "c" });
