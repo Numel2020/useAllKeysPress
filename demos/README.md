@@ -7,7 +7,8 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 #### NOTE: The below code samples are purely for reference. You can use whatever letters you wish.
 
-# 1. Single Key
+# 1. Single key
+![Single key - demo example](./screenshots/SK.gif)
 
 ### Keys setup
 
@@ -65,6 +66,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```
 
 # 2. Key on focused element
+![key on focused element - demo example](./screenshots/KOFE.gif)
 
 ### Keys setup
 
