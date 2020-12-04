@@ -208,7 +208,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 
 <div align="center">
-  <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/9588c334fb4d6fa55ae9c0aa2157c76f388426a8/demos/screenshots/MKIO.gif" />
+  <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/a6074a87d695f4b9c2e51c4a1d7ea1b869f71d7c/demos/screenshots/MKIO.gif" />
  </div>
 
 
