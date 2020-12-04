@@ -126,6 +126,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 ```
 
 # 3. Multiple keys
+![Multiple keys - demo example](./screenshots/MK.gif)
 
 ### Keys setup
 
@@ -191,7 +192,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 
 # 4. Multiple keys in order
 
-![multiple keys in order](./jackson.gif)
+![Multiple keys in order - demo example](./screenshots/MKIO.gif)
 
 
 ### Keys setup
