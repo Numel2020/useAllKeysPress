@@ -73,7 +73,7 @@ This file is the configuration guide in creating the `useAllKeysPress` demos, th
 # 2. Key on focused element
 
 <div align="center">
-![key on focused element - demo example](./screenshots/KOFE.gif)
+  <img width="50%" src="https://github.com/Numel2020/useAllKeysPress/blob/6cf78338d23c181d4d7de2b7fd96aca0af8f3df7/demos/screenshots/KOFE.gif" />
  </div>
 
 ### Keys setup
