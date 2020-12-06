@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react';
  * @param {object} -  User options
  * @returns {boolean} - TRUE returns a match.
  */
-function useAllKeyPress(options) {
+function useAllKeysPress(options) {
   // Check that 'options' is an object.
   if (!options || Object.keys(options).length === 0) {
     throw new Error(`No object parameter found use: {userKeys: ... } `);
@@ -215,4 +215,4 @@ function useAllKeyPress(options) {
   return settings.output;
 }
 
-export default useAllKeyPress;
+export default useAllKeysPress;
