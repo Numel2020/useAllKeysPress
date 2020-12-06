@@ -1,6 +1,6 @@
 import { fireEvent } from '@testing-library/react';
 import { renderHook, act } from '@testing-library/react-hooks';
-import useAllKeyPress from './useAllKeyPress';
+import useAllKeysPress from './useAllKeysPress';
 
 /**
  * Testing parts of useAllKeysPress Hook
@@ -14,21 +14,21 @@ import useAllKeyPress from './useAllKeyPress';
 
 describe('Hook initialisation ', () => {
   it('throws an error without an argument', () => {
-    const { result } = renderHook(() => useAllKeyPress());
+    const { result } = renderHook(() => useAllKeysPress());
 
     expect(result.error).toEqual(
       Error('No object parameter found use: {userKeys: ... } ')
     );
   });
   it('throws an error with an empty - {}', () => {
-    const { result } = renderHook(() => useAllKeyPress({}));
+    const { result } = renderHook(() => useAllKeysPress({}));
 
     expect(result.error).toEqual(
       Error('No object parameter found use: {userKeys: ... } ')
     );
   });
   it(`throws an error with an unrecognised value - { foo: 'bar'}'`, () => {
-    const { result } = renderHook(() => useAllKeyPress({ foo: 'bar' }));
+    const { result } = renderHook(() => useAllKeysPress({ foo: 'bar' }));
 
     expect(result.error).toEqual(
       Error(
@@ -37,7 +37,7 @@ describe('Hook initialisation ', () => {
     );
   });
   it('throws error if value is an integer - {useKeys: 999}', () => {
-    const { result } = renderHook(() => useAllKeyPress({ userKeys: 8 }));
+    const { result } = renderHook(() => useAllKeysPress({ userKeys: 8 }));
 
     expect(result.error).toEqual(
       Error(
@@ -49,7 +49,7 @@ describe('Hook initialisation ', () => {
 describe('Hook user interaction', () => {
   test('that the key pressed is (ArrowUp key)', () => {
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: 'ArrowUp' })
+      useAllKeysPress({ userKeys: 'ArrowUp' })
     );
 
     // value should be false
@@ -65,7 +65,7 @@ describe('Hook user interaction', () => {
   });
   test('that the keys pressed are (n + u keys)', () => {
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: ['n', 'u'] })
+      useAllKeysPress({ userKeys: ['n', 'u'] })
     );
 
     // value should be false
@@ -84,7 +84,7 @@ describe('Hook user interaction', () => {
   });
   test(`that the keys are required to be pressed in order and return 'true'`, () => {
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: ['m', 'e', 'l'], order: true })
+      useAllKeysPress({ userKeys: ['m', 'e', 'l'], order: true })
     );
 
     // value should be false
@@ -106,7 +106,7 @@ describe('Hook user interaction', () => {
   });
   test(`that the keys are pressed out of order and return 'false'`, () => {
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: ['m', 'e', 'l'], order: true })
+      useAllKeysPress({ userKeys: ['m', 'e', 'l'], order: true })
     );
 
     // value should be false
@@ -127,7 +127,7 @@ describe('Hook user interaction', () => {
   });
   test(`that the keys are pressed in any order and return 'true'`, () => {
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: ['m', 'e', 'l'] })
+      useAllKeysPress({ userKeys: ['m', 'e', 'l'] })
     );
 
     // simulate the keys being pressed - action to be taken
@@ -172,7 +172,7 @@ describe('Hook user interaction', () => {
     const ref = { current: document.createElement('input') };
 
     const { result } = renderHook(() =>
-      useAllKeyPress({ userKeys: 'ArrowDown', ref: ref })
+      useAllKeysPress({ userKeys: 'ArrowDown', ref: ref })
     );
 
     // value should be false
@@ -189,7 +189,7 @@ describe('Hook user interaction', () => {
 });
 describe('Hook output', ()=>{
     test(`that the pressed key returns 'false' when it is released`, ()=>{
-        const { result } = renderHook(() => useAllKeyPress({ userKeys: 'd' }));
+        const { result } = renderHook(() => useAllKeysPress({ userKeys: 'd' }));
         // simulate the keys being pressed - action to be taken
         act(() => {
             fireEvent.keyDown(window.document, { key: 'd', code: 'KeyD' });
@@ -201,7 +201,7 @@ describe('Hook output', ()=>{
         expect(result.current).toBe(false);
     })
     test(`that the pressed keys return 'false' when they are released`, ()=>{
-        const { result } = renderHook(() => useAllKeyPress({ userKeys: ['n','o'] }));
+        const { result } = renderHook(() => useAllKeysPress({ userKeys: ['n','o'] }));
         // simulate the keys being pressed - action to be taken
         act(() => {
             fireEvent.keyDown(window.document, { key: 'o', code: 'KeyO' });
@@ -224,7 +224,7 @@ describe('Hook output', ()=>{
 })
 describe('miscellaneous',()=>{
     test(`that a single array value should work like a string value in 'useKeys' prop`, () => {
-        const { result } = renderHook(() => useAllKeyPress({ userKeys: ['a'] }));
+        const { result } = renderHook(() => useAllKeysPress({ userKeys: ['a'] }));
 
         // value should be false
         expect(result.current).toBe(false);
